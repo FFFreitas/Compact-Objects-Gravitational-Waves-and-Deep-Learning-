@@ -55,27 +55,15 @@ coverage.xml
 *.mo
 *.pot
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+/Notebooks/ipynb_checkpoints
+
+# Pytorch models and datasets
+/Notebooks/data\ for\ classification/sig/
+/Notebooks/data\ for\ classification/bg/
+/Notebooks/data\ for\ classification/models/
 
 # IPython
 profile_default/
